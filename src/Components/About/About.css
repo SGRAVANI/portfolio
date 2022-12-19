@@ -1,0 +1,139 @@
+.about-container{
+    display: grid;
+    grid-template-columns: 30% 60%;
+    gap:10%;
+
+}
+.about__me{
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(45deg,var(--color-primary),transparent);
+    display: grid;
+    place-items: center;
+}
+.about__me img{
+    border-radius:2rem;
+    transform: rotate(10deg);
+    overflow: hidden;
+    transition: var(--transition);
+
+}
+.about__me img:hover{
+   
+    transform: rotate(0deg);
+
+
+}
+.about__cards{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap:1rem;
+}
+.about_card{
+    min-width: 120px;
+    background-color:var(--color-bg);
+    border:1px solid transparent;
+    border-radius: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+.about_card:hover{
+    background: transparent;
+    border-color:var(--color-primary-variant);
+    transition:var(--transition);
+    cursor: default;
+}
+.about__icon{
+    color:var(--color-primary);
+    font-size:1.4rem;
+    margin-bottom: 1rem;
+
+}
+.about_card h5{
+    font-size: 0.95rem;
+}
+small{
+    font-size:0.7rem;
+    color:var(--color-light);
+}
+.about-content p{
+    color:var(--color-light);
+    margin: 2rem 0 2.6rem;
+}
+.about-academic{
+  
+    margin-bottom: 1rem;
+}
+@media screen and (max-width:1400px)
+{
+    .about__cards{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap:1rem;
+    }   
+}
+@media screen and (max-width:1024px) {
+    .about-container{
+      
+        grid-template-columns: 1fr;
+        gap:50px;
+        text-align: center;
+    
+    } 
+    .about-academic{
+        text-align: center;
+        margin-bottom: 1rem;
+    }  
+    .about__me{
+        width: 50%;
+        margin:2rem auto 4rem;
+    }
+    .about-content p{
+        margin :1rem 0 1.5rem;
+        text-align: justify;
+    }
+}
+
+/* @media screen and (max-width:960px)
+{
+    .about__cards{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap:1rem;
+    }   
+} */
+@media screen and (max-width:600px)
+{
+    .about__cards{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap:1rem;
+    }
+    .about-container{
+      
+        grid-template-columns: 1fr;
+        gap:1rem;
+        text-align: center;
+    
+    }   
+    .about-academic{
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .about__me{
+        width: 65%;
+        margin:0 auto 3rem;
+    }
+    .about-content p{
+        margin:1.5rem 0;
+        text-align: justify;
+    }
+}
+@media screen and (max-width:450px) {
+    .about__cards{
+       
+        grid-template-columns: repeat(1,1fr);
+       text-align: center;
+    }
+}

@@ -1,0 +1,104 @@
+nav{
+    background-color: rgba(0,0,0,0.3);
+    display: block;
+    width: max-content;
+    z-index: 20;
+    position: fixed;
+    padding: 0.7rem 1.7rem;
+    left:50%;
+    transform: translateX(-50%);
+    bottom: 0.5rem;
+    display: flex;
+    gap:0.8rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(15px);
+}
+nav a{
+    background: transparent;
+    padding: 0.9rem;
+    border-radius: 50%;
+    display: flex;
+    color: var(--color-light);
+    font-size: 1.1rem;
+}
+nav a:hover{
+    background: rgba(0,0,0,0.3);
+}
+nav a.active{
+    background: var(--color-primary);
+    color:var(--color-bg-variant);
+}
+/* @media screen and (max-width:1450px) {
+    nav{
+        bottom: 0rem !important; 
+    }   
+   } */
+@media screen and (max-width:1281px) {
+    nav{
+        bottom: 2rem; 
+    }   
+   }
+  
+@media screen and (max-width:1025px) {
+ nav{
+    bottom: 3rem;
+ }   
+}
+@media screen and (max-width:913px) {
+    nav{
+         bottom: 37rem; 
+     } 
+}
+@media screen and (max-width:821px) {
+    nav{
+         bottom: 25rem; 
+     } 
+}
+@media screen and (max-width:769px) {
+    nav{
+         bottom: 16rem; 
+     } 
+}
+@media screen and (max-width:541px) {
+    nav{
+         bottom: 2rem; 
+     } 
+}
+@media screen and (max-width:600px) {
+    nav{
+        /* bottom: 4rem; */
+     } 
+}
+@media screen and (max-width:415px) {
+    nav{
+         bottom: 7rem; 
+     } 
+
+    }
+    @media screen and (max-width:413px) {
+        nav{
+             bottom: 8rem; 
+         } 
+    
+        }
+    
+    @media screen and (max-width:395px) {
+        nav{
+             bottom: 4rem !important; 
+         } 
+    }
+@media screen and (max-width:391px) {
+    nav{
+         bottom: 4rem !important; 
+     } 
+}
+@media screen and (max-width:376px) {
+    nav{
+         bottom: 0 !important; 
+     } 
+}
+@media screen and (max-width:361px) {
+    nav{
+         bottom: 2rem !important; 
+     } 
+}
