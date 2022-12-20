@@ -1,6 +1,6 @@
 {
   "name": "portfolio-website",
-  "home": "https://sgravani.github.io/portfolio/",
+  "homepage": "https://sgravani.github.io/portfolio/",
   "version": "0.1.0",
   "private": false,
   "dependencies": {

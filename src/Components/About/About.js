@@ -17,7 +17,7 @@ export default function About() {
           <img src={meImg}/>
         </div>
         <div className='about-content'>
-          <h3 class="about-academic">Academic Record</h3>
+          <h3 className="about-academic">Academic Record</h3>
           <div className='about__cards'>
             
             <article className='about_card'><FaUserGraduate className='about__icon'/>
