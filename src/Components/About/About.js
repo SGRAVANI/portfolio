@@ -52,11 +52,7 @@ export default function About() {
           </div>
           <p>I am a software engineer with expertise and keen interest in building frontend applications using React, JavaScript, Ajax, HTML, CSS , Bootstrap and Github
 
-I have good knowledge and experience in building responsive web applications which can target various devices with different screen resolutions
-
-{/* I have basic knowledge and understanding of Typescript and Nextjs. I have also worked and have prior experience with various Search Engine Optimization (SEO) techniques */}
-
-I am a quick learner and passionate about learning new technologies.
+I have good knowledge and experience in building responsive web applications which can target various devices with different screen resolutions. I am a quick learner and passionate about learning new technologies.
           </p>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>

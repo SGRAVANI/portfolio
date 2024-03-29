@@ -4,7 +4,7 @@ import { FaFacebookF} from 'react-icons/fa';
 import { BsInstagram } from 'react-icons/bs';
 export default function Footer() {
   return (
-    <footer id="footer">
+    <footer id="footer" className='foot'>
     <a href="#" className='footer-logo'>ShakuntlaPortfolio</a>
     <ul className='permalink'>
       <li><a href="#">Home</a></li>

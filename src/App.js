@@ -11,6 +11,8 @@ import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer/Footer';
 import Particle from './Components/Particle';
 import Portfolio1 from './Components/Portfolio/Portfolio1';
+import GitContribution from './Components/GitContrubution/GitContribution';
+import Training from './Components/Training/Training';
 
 function App() {
   return (
@@ -21,12 +23,14 @@ function App() {
    <Nav/> 
    <About/>
    <Experience/>
+   <Training/>
    <Services/>
+   
    <Portfolio1/>
    
    <Contact/>
    <Footer/>
-
+   {/* <GitContribution/> */}
     </div>
   );
 }
