@@ -74,12 +74,12 @@ return list;
 
       </div>
       
-      {/* <h3 className="git-contri">Github Contributions Calendar</h3>
+      <h3 className="git-contri">Github Contributions Calendar</h3>
       <div className='container ' >
         <div style={{display:"flex", flexDirection:"column",alignItems:"center"}} className='git-contri-bg'>
       <GitHubCalendar username="sgravani" colorScheme='light'/>
       </div>
-      </div> */}
+      </div>
     </section>
   )
 }
