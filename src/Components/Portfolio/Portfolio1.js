@@ -18,6 +18,7 @@ import qtripDynamic from "../../Assets/qtrip-dynamic.jpg";
 import xboard from "../../Assets/newsfeed.jpg";
 import qtripStatic from "../../Assets/qtrip-static.jpg";
 import todoApp from "../../Assets/TodoApp.jpg";
+import ticTacToe from "../../Assets/tic-tac-toe.jpg";
 
 let pData=[
   {img:qkart,heading:"qKart using React",githubRepLink:"https://github.com/SGRAVANI/best-chap09-ME_QKART_FRONTEND_V2",githubLiveLink:"https://shakuntla-qkart-frontend.vercel.app"},
@@ -44,6 +45,7 @@ githubRepLink:"https://github.com/SGRAVANI/capstone-project",githubLiveLink:"htt
 
 {img:qtripStatic,heading:"qTrip Static using HTML & CSS",githubRepLink:"https://github.com/CrioDo/best-chap09-ME_QTRIPSTATIC",githubLiveLink:"https://shakuntla-qtrip.netlify.app"},
 
+{img:ticTacToe,heading:"Tic-Tac-Toe using React",githubRepLink:"https://github.com/SGRAVANI/tic-tac-toe",githubLiveLink:"https://tic-tac-toe-shakuntla.vercel.app/"},
 
 
 
